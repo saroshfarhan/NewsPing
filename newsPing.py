@@ -3,7 +3,7 @@ import json
 import twilioSMS
 import time
 
-api = NewsApiClient(api_key='e1792b9574ac4d50998c05cb3e4191d2')
+api = NewsApiClient(api_key='YOUR_NEWS_API_KEY')
 
 
 def getNews():

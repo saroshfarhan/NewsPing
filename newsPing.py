@@ -28,6 +28,6 @@ def parseNews():
         twilioSMS.sendMessage(title, desc, url)
         time.sleep(6)
 
-
+#use this to run and send WhatsAp chat
 if __name__ == '__main__':
     parseNews()
